@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    makes it easy to focus on just the changes
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    if your code breaks, it's easier to revert. Also useful for restoring
+    subroutines if necessary
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    the pros of manually choosing when to commit is it reduces the size on disk. Cons of
+    manual commit is you might not commit often enough
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think Google Docs is oriented towards document users, who are working on one file
+    at a time. Git is geared towards software; one "change" in your program might have
+    several related changes across a set of different files. E.g. a change in website
+    formatting might involve both an HTML file change plus a CSS change. Being able to
+    group these changes together in a commit makes it easier to see which changes go together.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can use git log to get the list of commits, and the commit id's. Then you can use git
+    diff to show the differences between two commits. A handy setting to color-code the
+    changes is git config --global color.ui auto .
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    knowing you can revert to a previous version if needed. Save early, save often.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    i want to use Git for going between changes in code, instead of endlessly commenting out 
+    old code, and saving numerous copies of the same thing. 
