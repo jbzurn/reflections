@@ -8,3 +8,6 @@ How is the staging area different from the working directory and the repository?
 	The staging area allows you to prepare multiple files to be committed in one commit. It also gives you control over which files are committed.  This is different from the working directory, which simply is
 	a repository for all the current files.
 
+How can you use the staging area to make sure you have one commit per logical change?
+	By comparing the staging area with the last commit, and observing the differences.
+
